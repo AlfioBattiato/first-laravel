@@ -1,0 +1,21 @@
+body{
+    background-color: #1A202C;
+    color:white
+}
+.bg-blue{
+    background-color: #1A202C!important;
+    color:white!important
+}
+.bg-blue-2{
+    background-color: #13151D!important;
+    color:white!important
+}
+.color-red{
+    color: #EF4444!important;
+}
+.bg-red{
+    background-color: #EF4444!important;
+}
+.bg-red-2{
+    background-color: #FF2D20!important;
+}

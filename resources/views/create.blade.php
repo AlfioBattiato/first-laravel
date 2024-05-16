@@ -19,7 +19,7 @@
                         <label for="deadline">Scadenza</label>
                         <input type="date" class="form-control" id="deadline">
                     </div>
-                    <button type="submit" class="btn btn-primary">Aggiungi Attività</button>
+                    <button type="submit" class="btn bg-red mt-5">Aggiungi Attività</button>
                 </form>
             </div>
         </div>

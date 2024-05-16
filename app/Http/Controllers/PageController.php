@@ -28,6 +28,10 @@ class PageController extends Controller
     {
         return view('delete', ['id'->$id]);
     }
+    // public function delete($id)
+    // {
+    //     return view('delete',compact('id'));
+    // }
     public function create()
     {
         return view('create');
