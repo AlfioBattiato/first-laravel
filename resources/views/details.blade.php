@@ -14,8 +14,20 @@
         </div>
     </div>
 
-   
+    <!-- <div class="btn btn-danger mt-5"><a class="text-decoration-none text-white"
+            href="{{route('delete', ['id' => $books])}}">Delete book</a></div> -->
 
+
+    <div class="d-flex gap-2 mt-3">
+        <a class="btn btn-warning " href="{{ route('modify', ['id' => $books]) }}">Edit</a>
+
+        <form action="{{ route('delete', ['id' => $books]) }}" method="POST">
+            @method('DELETE')
+            @csrf
+            <button class="btn btn-danger">Elimina</button>
+        </form>
+
+    </div>
 
 
 </div>

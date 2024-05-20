@@ -24,7 +24,7 @@
                         <!-- <td><a href="/details/{{$element->id}}">{{$element->title}}</a> </td> -->
                         <td>{{$element->price}}</td>
                         <td>{{$element->author}}</td>
-                        <td><img src="{{$element->image}}" alt="Immagine del libro" style="max-width: 100px;"></td>
+                        <td><img src="{{$element->img}}" alt="Immagine del libro" style="max-width: 100px;"></td>
                     </tr>
                 @endforeach
             </tbody>
