@@ -5,7 +5,7 @@
 
 <nav class="navbar navbar-expand-lg  bg-red">
         <div class="container  text-white">
-            <a class="navbar-brand  text-white" href="/">Allenando</a>
+            <a class="navbar-brand  text-white" href="/">MyBOOKS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -17,7 +17,7 @@
                         <a class="nav-link active fw-bold" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  fw-bold" href="/create">Nuova attività</a>
+                        <a class="nav-link  fw-bold" href="/create">Inserisci libro</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">

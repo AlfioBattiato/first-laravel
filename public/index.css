@@ -1,6 +1,6 @@
 body{
     background-color: #1A202C;
-    color:white
+    color:white!important
 }
 .bg-blue{
     background-color: #1A202C!important;
@@ -18,4 +18,7 @@ body{
 }
 .bg-red-2{
     background-color: #FF2D20!important;
+}
+.pagI p{
+    color: white!important;
 }
