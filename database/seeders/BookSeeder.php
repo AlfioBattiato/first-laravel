@@ -20,6 +20,7 @@ class BookSeeder extends Seeder
                 'price' => rand(100, 350),
                 'author' => fake()->name(),
                 'img' => fake()->imageUrl(640, 480),
+                'user_id' => rand(1,5),
             ]);
 
         }
